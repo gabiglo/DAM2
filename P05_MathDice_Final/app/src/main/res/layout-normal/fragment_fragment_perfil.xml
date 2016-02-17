@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gabi.p05_mathdice_final.FragmentPerfil">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:id="@+id/imageView4"
+        android:background="#c4c1c1"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/BtnFoto" />
+
+    <Button
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:text="Foto"
+        android:id="@+id/BtnFoto"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Introduce Nombre"
+        android:textColor="#040404"
+        android:textSize="15dp"
+        android:id="@+id/TextNombre"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/BtnFoto"
+        android:layout_alignEnd="@+id/BtnFoto" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editApellidos"
+        android:layout_below="@+id/TextEdad"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editnombre"
+        android:layout_below="@+id/TextNombre"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Introduce Apellidos"
+        android:textColor="#040404"
+        android:textSize="15dp"
+        android:id="@+id/TextEdad"
+        android:layout_weight="0.06"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editnombre" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/BtnGuardar"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/editApellidos"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aqui tu Path!!!!!"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/BtnFoto"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/BtnGuardar"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+

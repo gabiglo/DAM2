@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+tools:context=".ActivityFragment"
+android:background="#c50a19f7">
+<!--Definios los dos fragments que compondran nuestra ActivityFragment-->
+<!--
+Este primer fragment sera el fragment estatico y contendra nuestra
+ imagen y el listView
+-->
+<fragment
+    android:name="com.example.gabi.p05_mathdice_final.ListFragment"
+    android:id="@+id/list_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    tools:layout="@layout/fragment_list" />
+<!--Este Fragment contendra el textview sera un fragment dinamco-->
+<FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+#Directorios .gradle
+.gradle/
+#Ficheros cuyo nmbre sea local.properties
+local.properties
+#Ficheros cuyo nmbre sea workspace.xml
+workspace.xml
+#directorios libraries
+libraries/
+#Directorios build
+build/

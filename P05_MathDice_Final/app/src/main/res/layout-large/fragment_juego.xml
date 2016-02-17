@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabi.p05_mathdice_final.JuegoFragment">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/rojo1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/dado1" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/rojo2"
+        android:layout_alignBottom="@+id/rojo1"
+        android:layout_toEndOf="@+id/rojo1"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/dado2" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/azul1"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/rojo1"
+        android:layout_alignStart="@+id/rojo1"
+        android:src="@drawable/dado1_6" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/azul2"
+        android:layout_alignTop="@+id/azul1"
+        android:layout_alignStart="@+id/rojo2"
+        android:src="@drawable/dado2_6" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/azul3"
+        android:layout_marginStart="40dp"
+        android:layout_alignTop="@+id/azul2"
+        android:layout_toEndOf="@+id/azul2"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/dado3_6" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/dodec"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/azul1"
+        android:layout_alignStart="@+id/azul1"
+        android:src="@drawable/dode12" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/signoMas"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/dodec"
+        android:layout_alignStart="@+id/dodec"
+        android:src="@drawable/suma" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/signoMenos"
+        android:layout_alignBottom="@+id/signoMas"
+        android:layout_toEndOf="@+id/signoMas"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/resta" />
+</RelativeLayout>  <!-- TODO: Update blank fragment layout -->
+

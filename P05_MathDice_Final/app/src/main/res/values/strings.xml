@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">P05_MathDice_Final</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="Edad">Edad</string>
+    <string name="Nombre">Nombre</string>
+    <string name="juego">juego</string>
+    <string name="title_activity_activity_fragment">ActivityFragment</string>
+    <string name="imagen2">imagen2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Buenvenido a Mathice!!!</string>
+    <string name="title_activity_activity_perfil">ActivityPerfil</string>
+</resources>

@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.gabi.p05_mathdice_final.LoginActivity"
+android:background="#c21759e8"
+android:orientation="vertical"
+android:gravity="center"
+android:id="@+id/fragment_Perfil">
+
+<!-- TODO: Update blank fragment layout -->
+
+<EditText
+    android:layout_width="304dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/editTextNombre"
+    android:layout_gravity="center_horizontal"
+    android:inputType="number" />
+
+<TextView android:layout_width="304dp" android:layout_height="wrap_content"
+    android:text="@string/Edad"
+    android:background="#c21759e8"
+    android:id="@+id/TextoEdadPerfil"
+    android:layout_gravity="center"
+    android:gravity="center" />
+
+<EditText
+    android:layout_width="304dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/editTextEdad"
+    android:inputType="text" />
+
+<TextView android:layout_width="304dp" android:layout_height="wrap_content"
+    android:text="@string/Nombre"
+    android:layout_gravity="center_horizontal"
+    android:background="#c21759e8"
+    android:id="@+id/TextoNombrePerfil"
+    android:gravity="center" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/juego"
+    android:id="@+id/BotonJugar"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp" />
+
+
+</LinearLayout>
+

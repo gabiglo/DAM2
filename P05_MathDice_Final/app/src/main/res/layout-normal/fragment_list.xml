@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gabi.p05_mathdice_final.ListFragment"
+    android:background="#c50a19f7">
+
+    <!--En este layout se define la estructura del layout que contendra nuestro
+       fragment estatico,compuesto de una imagen y el listView-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView2"
+        android:background="@drawable/imagen_v2"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:contentDescription="@string/imagen2" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:textAlignment="gravity"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"/>
+</LinearLayout>
